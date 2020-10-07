@@ -16,7 +16,7 @@ public class Example_StringToken {
                 " สร้างแบบจำลองการตรวจจับวัตถุในวีดิโอ");
 
         StringTokenizer strToken = new StringTokenizer(str.toString());
-        int countWord = strToken.countTokens();
+        int countWord = 0;
         System.out.println("Word count: "+countWord);
 
         while (strToken.hasMoreTokens()){
